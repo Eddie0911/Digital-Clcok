@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    margin: 70px 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 45px;
+    color: white;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    padding-right: 15px;
+}
+
+#ampm{
+    font-size: 30px;
+    display: flex;
+    align-items: center;   
+}
